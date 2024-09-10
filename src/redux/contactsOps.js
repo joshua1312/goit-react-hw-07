@@ -23,6 +23,7 @@ export const addContact = createAsyncThunk(
             return response.data;
         } catch (error) {
             return thunkAPI.rejectWithValue(error.message);
+            // return thunkAPI.rejectWithValue(error.message);
         }
     },
 );
