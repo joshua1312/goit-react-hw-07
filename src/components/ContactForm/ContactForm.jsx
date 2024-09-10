@@ -18,7 +18,7 @@ const ContactForm = () => {
             .required('Required'),
         number: Yup.string()
             .matches(
-                /^\d{7}$/,
+                /^\d{10}$/,
                 'Phone number is not valid.',
             )
             .required('Required'),
