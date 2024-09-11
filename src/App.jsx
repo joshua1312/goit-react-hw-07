@@ -25,6 +25,7 @@ function App() {
         {loading && !error && <b>Request in progress...</b>}
         <SearchBox />
         <ContactList />
+        {/* <ContactList /> */}
       </div>
     </>
   );
