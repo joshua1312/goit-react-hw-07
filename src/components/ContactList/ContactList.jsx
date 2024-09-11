@@ -5,7 +5,7 @@ import css from './ContactList.module.css';
 
 const ContactList = () => {
     const filteredContacts = useSelector(selectFilteredContacts);
-
+// console.log(filteredContacts);
     return (
         <ul className={css.contactList}>
             {filteredContacts.map(contact => (

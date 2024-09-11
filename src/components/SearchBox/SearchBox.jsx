@@ -7,6 +7,7 @@ const SearchBox = () => {
     const searchFieldId = useId();
     const filter = useSelector(selectNameFilter);
     const dispatch = useDispatch();
+// console.log(filter);
 
     return (
         <div className={css.searchBox}>

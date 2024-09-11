@@ -6,6 +6,7 @@ import css from './Contact.module.css';
 
 const Contact = ({ contact }) => {
     const dispatch = useDispatch();
+    // console.log(contact);
     return (
         <div className={css.contactBox}>
             <div className={css.contactBoxWrapp}>
